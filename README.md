@@ -53,16 +53,9 @@ python app.py
 
 Opens at [http://localhost:8050](http://localhost:8050). Click **Simulate** to run the ensemble.
 
-## Deploy to Render
+## Live demo
 
-The included `render.yaml` is ready for Render's free tier:
-
-```
-Build command:  pip install -r requirements.txt
-Start command:  gunicorn app:server --bind 0.0.0.0:$PORT --workers 2 --timeout 120
-```
-
-No environment variables or API keys required.
+[sargassum-demo.onrender.com](https://sargassum-demo.onrender.com)
 
 ## Dependencies
 
