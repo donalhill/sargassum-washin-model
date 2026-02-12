@@ -56,13 +56,3 @@ Opens at [http://localhost:8050](http://localhost:8050). Click **Simulate** to r
 ## Live demo
 
 [sargassum-demo.onrender.com](https://sargassum-demo.onrender.com)
-
-## Dependencies
-
-Five direct dependencies — no cartopy, no geopandas, no netCDF4:
-
-- dash
-- plotly
-- numpy
-- scipy
-- gunicorn
